@@ -1,13 +1,14 @@
-import { Editor } from "@/components/editor/Editor";
-import Header from "@/components/Header";
-import React from "react";
-import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import CollaborativeRoom from "@/app/CollaborativeRoom";
 
 const Document = () => {
   return (
+    <main className="flex w-full flex-col items-center">
     <div>
+      <CollaborativeRoom 
       
+      />
     </div>
+    </main>
   );
 };
 
